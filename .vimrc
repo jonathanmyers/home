@@ -1,9 +1,9 @@
-# syntax highlighting
+" syntax highlighting
 syntax on
 
-# auto indent
-filetype plugin indent on
+" auto indent
+" filetype plugin indent on
 
-# connect vim clipboard with os clipboard
+" connect vim clipboard with os clipboard
 set clipboard=unnamed
 
