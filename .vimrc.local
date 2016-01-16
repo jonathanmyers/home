@@ -1,0 +1,8 @@
+set fileformat=unix
+
+set pastetoggle=<F10>
+inoremap <C-v> <F10><C-r>+<F10>
+vnoremap <C-c> "+y"
+set clipboard=unnamed
+
+let g:AutoPairsFlyMode = 1

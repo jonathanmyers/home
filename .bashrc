@@ -20,4 +20,9 @@ export MANPATH=/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/X11R6/man
 # Enable colors
 export CLICOLOR=1
 
+# Custom SSH command. Always runs bash with "vi mode" on the remote machine
 jsh() { /usr/bin/ssh -t $@ /bin/bash -l -o vi; }
+
+# Github home
+export GITHUB="https://github.com"
+export GITHUBME="${GITHUB}/jwbraucher"

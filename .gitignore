@@ -7,16 +7,24 @@ Movies
 Music
 Pictures
 Public
+Sites/
 VirtualBox VMs
-data
+bin/
+data/
 git
 projects
-vagrant
+vagrant/
 .CFUserTextEncoding
 .DS_Store
+.anyconnect
 .bash_history
+.composer/
+.cups/
+.dropbox_uploader
+.dropshell_history
 .gitconfig
 .lesshst
+.npm/
 .rnd
 .viminfo
 .vimrc
