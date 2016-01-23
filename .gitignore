@@ -13,6 +13,7 @@ bin/
 data/
 git
 projects
+tmp/
 vagrant/
 .CFUserTextEncoding
 .DS_Store
@@ -24,6 +25,7 @@ vagrant/
 .dropshell_history
 .gitconfig
 .lesshst
+.oracle_jre_usage/
 .npm/
 .rnd
 .viminfo
@@ -43,3 +45,4 @@ vagrant/
 .vimswap
 .vimundo
 .vimviews
+.wget-hsts
