@@ -25,4 +25,4 @@ jsh() { /usr/bin/ssh -t $@ /bin/bash -l -o vi; }
 
 # Github home
 export GITHUB="https://github.com"
-export GITHUBME="${GITHUB}/jwbraucher"
+export GITME="${GITHUB}/jwbraucher"
