@@ -9,11 +9,6 @@ set pastetoggle=<F10>
 inoremap <C-v> <F10><C-r>+<F10>
 vnoremap <C-c> "+y"
 
-" Turn off line numbers
-set number
-
 " Turn off spell checker
 set nospell
 
-" Disable autoclose
-let g:autoclose_on = 0

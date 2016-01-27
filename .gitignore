@@ -17,6 +17,7 @@ tmp/
 vagrant/
 .CFUserTextEncoding
 .DS_Store
+.Trash/
 .atom/
 .anyconnect
 .bash_history
