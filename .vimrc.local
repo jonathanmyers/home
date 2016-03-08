@@ -22,3 +22,7 @@ UnBundle 'tpope/vim-rails'
 " Disable folding
 set nofoldenable                " disable code folding
 let g:DisableAutoPHPFolding = 1 " disable PIV's folding
+
+" Make syntax highlighting look at the whole file
+autocmd BufEnter * :syntax sync fromstart
+
