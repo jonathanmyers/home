@@ -48,6 +48,7 @@ vagrant/
 .subversion
 .vagrant.d
 .vim
+.vimrc.before
 .vimbackup
 .vimswap
 .vimundo
