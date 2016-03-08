@@ -12,3 +12,13 @@ vnoremap <C-c> "+y"
 " Turn off spell checker
 set nospell
 
+" Restore word motion
+set isk-=-
+set isk-=#
+set isk-=.
+UnBundle 'gorodinskiy/vim-coloresque'
+UnBundle 'tpope/vim-rails'
+
+" Disable folding
+set nofoldenable                " disable code folding
+let g:DisableAutoPHPFolding = 1 " disable PIV's folding
