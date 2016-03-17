@@ -4,3 +4,5 @@
 " Disable autoclose
 let g:autoclose_on = 0
 
+" Don't auto trim trailing whitespace
+let g:spf13_keep_trailing_whitespace = 1

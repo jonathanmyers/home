@@ -12,6 +12,9 @@ vnoremap <C-c> "+y"
 " Turn off spell checker
 set nospell
 
+" Turn off drop-down autocomplete feature (slow)
+let g:neocomplete#disable_auto_complete=1
+
 " Restore word motion
 set isk-=-
 set isk-=#
@@ -26,3 +29,9 @@ let g:DisableAutoPHPFolding = 1 " disable PIV's folding
 " Make syntax highlighting look at the whole file
 autocmd BufEnter * :syntax sync fromstart
 
+
+" Remove trailing whitespaces and \^M chars
+" autocmd FileType c,cpp,java,php,js,python,twig,xml,yml autocmd
+" BufWritePre <buffer> :call
+" setline(1,map(getline(1,"$"),'substitute(v:val,"\\\\s\\\\+$","","")'))
+" }
