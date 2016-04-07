@@ -1,0 +1,13 @@
+#!/bin/bash -e
+
+# Usage
+export PATH=/usr/local/bin:/usr/local/bins:/usr/bin:/usr/sbin:/bin:/sbin
+if [ $# -ne 1 ]; then
+  echo "Usage $0 <csr>"
+  exit 1
+fi
+csr=$1
+set +x
+
+openssl req -noout -text -verify -in ${csr}
+

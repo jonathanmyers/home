@@ -1,0 +1,15 @@
+#!/bin/bash -e
+
+# Usage
+export PATH=/usr/local/bin:/usr/local/bins:/usr/bin:/usr/sbin:/bin:/sbin
+if [ $# -ne 1 ]; then
+  echo "Usage $0 <server>"
+  exit 1
+fi
+server=$1
+set +x
+
+which openssl
+openssl req -new -newkey rsa:2048 -nodes \
+  -keyout ${server}.pem -out ${server}.csr
+

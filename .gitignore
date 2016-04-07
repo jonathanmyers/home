@@ -1,3 +1,4 @@
+*
 !.bash_profile
 !.bashrc
 !.gitignore
@@ -5,4 +6,7 @@
 !.vimrc.before.local
 !.vimrc.bundles.local
 !.vimrc.local
-**
+!/bin/
+!/bin/*
+/bin/adb
+/bin/gradle
