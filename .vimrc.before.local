@@ -1,5 +1,5 @@
 " Disable syntax highlighting on markdown
-" autocmd Filetype markdown syntax off
+autocmd Filetype markdown syntax off
 
 " Disable autoclose
 let g:autoclose_on = 0
