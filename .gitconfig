@@ -1,0 +1,14 @@
+[user]
+	name = Jeff Braucher
+	email = jeff@braucher.net
+[push]
+	default = simple
+[rerere]
+	enabled = 1
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
+[credential]
+	helper = osxkeychain
