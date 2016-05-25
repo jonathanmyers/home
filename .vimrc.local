@@ -35,3 +35,6 @@ autocmd BufEnter * :syntax sync fromstart
 " BufWritePre <buffer> :call
 " setline(1,map(getline(1,"$"),'substitute(v:val,"\\\\s\\\\+$","","")'))
 " }
+
+" Preserve missing eol's for my developer colleagues
+let b:PreserveNoEOL = 1

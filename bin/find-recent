@@ -1,7 +1,15 @@
+#!/bin/bash
+
+# Usage
+if [ $# -ne 1 ]; then
+    echo $0 "<directory>";
+    exit 1
+fi
+
 case $( uname -s ) in
 Linux) \
-find $1 -xdev -type f -print0 | xargs -0 stat --printf "%Y %y %n\n" | sort -rn | cut -d' ' -f2- ;;
-Darwin) \
-find $1 -xdev -type f -print0 | xargs -0 stat -f "%m%t%Sm %N" | sort -rn | cut -f2- ;;
+    find $1 -xdev -type f -print0 | xargs -0 stat --printf "%Y %y %n\n" | sort -rn | cut -d' ' -f2- ;;
+FreeBSD|Darwin) \
+    find $1 -xdev -type f -print0 | xargs -0 stat -f "%m%t%Sm %N" | sort -rn | cut -f2- ;;
 *)     echo Don\'t know this OS.;;
 esac
