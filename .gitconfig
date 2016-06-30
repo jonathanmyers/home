@@ -12,3 +12,5 @@
 	prompt = false
 [credential]
 	helper = osxkeychain
+[alias]
+	mylog = !git log --author=\"$(git config user.name)\"
