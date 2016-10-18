@@ -38,3 +38,13 @@ autocmd BufEnter * :syntax sync fromstart
 
 " Preserve missing eol's for my developer colleagues
 let b:PreserveNoEOL = 1
+
+" Disable auto-close
+let g:AutoPairs = {}
+
+" Shorten tabs
+set shiftwidth=2
+set softtabstop=2
+
+" Disable automatic curly quotes
+let g:textobj#quote#educate = 1
